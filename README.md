@@ -1,9 +1,19 @@
-# Udacity Flower classification project
+# Flower classification project
 
-My submission to the udacity pytorch image classification project, which task was to classify flowers according to their species.
+## Overview
 
-This was my first attempt into a deep learning task and helped me a lot to understand how NN's are constructed and how they work.
+The task for this project was to classify flowers according to their species. This is my first attempt using pytorch and deep learning
 
-Additional to this first script there are other three that contain code to create a terminal application of the flower classification task, these three are divided into train, test and functions scripts. This app was also part of the Udacity deep learning project.
+The goal was to build a model to classify images and then build a terminal application using the code contained in the notebook.
 
-As mentioned above, in order to work with this project, the pytorch library must be installed as well as other common libraries that you surely have but if not, you can find them inside the script.
+# Files 
+
+Image Classifier Project.ipynb: contains the code for the image classification task
+
+train.py: code for training images using deep learning in a terminal application
+
+predict(1).py: code for predicting images labels using a trained deep learning model in a terminal application
+
+m_func.py: contains the functions needed to run each the train application and the predict application.
+
+cat_to_name.json: contains the name-label pairs of each flower.
